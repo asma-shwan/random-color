@@ -1,0 +1,41 @@
+body{
+    text-align: center;
+    justify-content: center;
+    align-items: center;
+    font-family: cursive;
+    height: 100vh;
+}
+#p{
+    font-size: 20px;
+    text-shadow: 1px 1px 2px rgb(236, 45, 77);
+}
+.div1{
+border: 2px solid black;
+height: 150px;
+width: 150px;
+display:inline-block ;
+margin: 10px;
+border-radius: 10px;
+background-color: #FFF89C;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+
+.div{
+justify-content: center;
+ display: flex;
+flex-wrap: wrap;
+}
+button{
+    padding: 20px;
+    background-color: black;
+color: white;
+border-radius: 5px;
+margin-top: 20px;
+}
+button:hover{
+    background-color: white;
+    color: black;
+}
+
